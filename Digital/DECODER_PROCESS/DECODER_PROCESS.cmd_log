@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/X/DECODER_PROCESS/DECODER_PROCESS.xst" -ofn "/home/ise/X/DECODER_PROCESS/DECODER_PROCESS.syr" 

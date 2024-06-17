@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/LEFT_SHIFT/LEFT_SHIFT.xst" -ofn "/home/ise/LEFT_SHIFT/LEFT_SHIFT.syr" 

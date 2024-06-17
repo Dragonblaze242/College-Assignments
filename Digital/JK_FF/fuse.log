@@ -1,0 +1,16 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/home/ise/X/JK_FF/JK_FF_isim_beh.exe" -prj "/home/ise/X/JK_FF/JK_FF_beh.prj" "work.JK_FF" 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/X/JK_FF/JK_FF.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95296 KB
+Fuse CPU Usage: 1380 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity jk_ff
+Time Resolution for simulation is 1ps.
+ERROR:Simulator:904 - Unable to remove previous simulation file isim/JK_FF_isim_beh.exe.sim/JK_FF_isim_beh.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: Text file busy: "isim/JK_FF_isim_beh.exe.sim/JK_FF_isim_beh.exe"
+ERROR:Simulator:861 - Failed to link the design

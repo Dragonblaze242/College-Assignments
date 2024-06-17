@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/X/and1/and1.xst" -ofn "/home/ise/X/and1/and1.syr" 

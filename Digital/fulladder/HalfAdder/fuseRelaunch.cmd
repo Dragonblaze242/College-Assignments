@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/csa-4th/HalfAdder/halfadder_isim_beh.exe" -prj "/home/ise/csa-4th/HalfAdder/halfadder_beh.prj" "work.halfadder" 

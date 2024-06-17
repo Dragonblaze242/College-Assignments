@@ -1,0 +1,20 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/home/ise/csa-4th/MUX/MUX_isim_beh.exe" -prj "/home/ise/csa-4th/MUX/MUX_beh.prj" "work.MUX" 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/csa-4th/MUX/MUX.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96400 KB
+Fuse CPU Usage: 1210 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling architecture behavioral of entity mux
+Time Resolution for simulation is 1ps.
+Compiled 4 VHDL Units
+Built simulation executable /home/ise/csa-4th/MUX/MUX_isim_beh.exe
+Fuse Memory Usage: 109596 KB
+Fuse CPU Usage: 1290 ms
+GCC CPU Usage: 140 ms

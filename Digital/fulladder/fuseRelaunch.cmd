@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/csa-4th/fulladder/fulladder_isim_beh.exe" -prj "/home/ise/csa-4th/fulladder/fulladder_beh.prj" "work.fulladder" 

@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "/home/ise/X/JK_FF/JK_FF.xst" -ofn "/home/ise/X/JK_FF/JK_FF.syr" 
+xst -intstyle ise -ifn "/home/ise/X/JK_FF/JK_FF.xst" -ofn "/home/ise/X/JK_FF/JK_FF.syr" 
+xst -intstyle ise -ifn "/home/ise/X/JK_FF/JK_FF.xst" -ofn "/home/ise/X/JK_FF/JK_FF.syr" 
+xst -intstyle ise -ifn "/home/ise/X/JK_FF/JK_FF.xst" -ofn "/home/ise/X/JK_FF/JK_FF.syr" 
+xst -intstyle ise -ifn "/home/ise/X/JK_FF/JK_FF.xst" -ofn "/home/ise/X/JK_FF/JK_FF.syr" 
+xst -intstyle ise -ifn "/home/ise/X/JK_FF/JK_FF.xst" -ofn "/home/ise/X/JK_FF/JK_FF.syr" 
+xst -intstyle ise -ifn "/home/ise/X/JK_FF/JK_FF.xst" -ofn "/home/ise/X/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx4-csg225-3 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+xst -intstyle ise -ifn "/home/ise/X/JK_FF/JK_FF.xst" -ofn "/home/ise/X/JK_FF/JK_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx4-csg225-3 JK_FF.ngc JK_FF.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JK_FF_map.ncd JK_FF.ngd JK_FF.pcf 
+par -w -intstyle ise -ol high -mt off JK_FF_map.ncd JK_FF.ncd JK_FF.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JK_FF.twx JK_FF.ncd -o JK_FF.twr JK_FF.pcf 

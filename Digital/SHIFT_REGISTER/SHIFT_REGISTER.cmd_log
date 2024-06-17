@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/ise/SHIFT_REGISTER/SHIFT_REGISTER.xst" -ofn "/home/ise/SHIFT_REGISTER/SHIFT_REGISTER.syr" 
+xst -intstyle ise -ifn "/home/ise/SHIFT_REGISTER/SHIFT_REGISTER.xst" -ofn "/home/ise/SHIFT_REGISTER/SHIFT_REGISTER.syr" 
+xst -intstyle ise -ifn "/home/ise/SHIFT_REGISTER/SHIFT_REGISTER.xst" -ofn "/home/ise/SHIFT_REGISTER/SHIFT_REGISTER.syr" 
+xst -intstyle ise -ifn "/home/ise/SHIFT_REGISTER/SHIFT_REGISTER.xst" -ofn "/home/ise/SHIFT_REGISTER/SHIFT_REGISTER.syr" 

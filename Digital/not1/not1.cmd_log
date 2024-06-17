@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/X/not1/not1.xst" -ofn "/home/ise/X/not1/not1.syr" 

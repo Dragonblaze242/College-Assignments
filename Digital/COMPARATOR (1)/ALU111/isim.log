@@ -1,0 +1,42 @@
+ISim log file
+Running: /home/ise/ALU111/ALU111_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/ALU111/ALU111_isim_beh.wdb 
+ISim P.20160913 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /alu111/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /alu111/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# put a 10101111
+# put b 10101101
+# put sel 0111
+# run
+at 1 us, Instance /alu111/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# put a 10101111
+# put b 10101101
+# put sel 0110
+# run
+# put a 10101111
+# put sel 1000
+# run
+# put a 10101111
+# put b 10101101
+# put cin 1
+# run
+# put a 10000000
+# put b 00000001
+# put cin 1
+# put sel 0111
+# run
+# put a 10000000
+# put b 00000001
+# put sel 1110
+# run

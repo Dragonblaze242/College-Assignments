@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/X/not1/not1_isim_beh.exe" -prj "/home/ise/X/not1/not1_beh.prj" "work.not1" 

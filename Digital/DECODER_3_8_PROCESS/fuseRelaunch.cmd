@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/X/DECODER_3_8_PROCESS/DECODER_3_8_PROCESS_isim_beh.exe" -prj "/home/ise/X/DECODER_3_8_PROCESS/DECODER_3_8_PROCESS_beh.prj" "work.DECODER_3_8_PROCESS" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/X/and1/and1_isim_beh.exe" -prj "/home/ise/X/and1/and1_beh.prj" "work.and1" 
